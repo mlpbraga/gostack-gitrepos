@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/sexism-research/static/js/main.448b0751.chunk.js",
-    "main.js.map": "/sexism-research/static/js/main.448b0751.chunk.js.map",
-    "runtime-main.js": "/sexism-research/static/js/runtime-main.8e619ab0.js",
-    "runtime-main.js.map": "/sexism-research/static/js/runtime-main.8e619ab0.js.map",
-    "static/js/2.b05ab2cc.chunk.js": "/sexism-research/static/js/2.b05ab2cc.chunk.js",
-    "static/js/2.b05ab2cc.chunk.js.map": "/sexism-research/static/js/2.b05ab2cc.chunk.js.map",
-    "index.html": "/sexism-research/index.html",
-    "precache-manifest.d171d1fa9840c05d905286d554efc156.js": "/sexism-research/precache-manifest.d171d1fa9840c05d905286d554efc156.js",
-    "service-worker.js": "/sexism-research/service-worker.js",
-    "static/js/2.b05ab2cc.chunk.js.LICENSE.txt": "/sexism-research/static/js/2.b05ab2cc.chunk.js.LICENSE.txt",
-    "static/media/background.svg": "/sexism-research/static/media/background.0b819d63.svg",
-    "static/media/logo.svg": "/sexism-research/static/media/logo.04f6798f.svg"
+    "main.js": "/gostack-gitrepos/static/js/main.448b0751.chunk.js",
+    "main.js.map": "/gostack-gitrepos/static/js/main.448b0751.chunk.js.map",
+    "runtime-main.js": "/gostack-gitrepos/static/js/runtime-main.7eb7e7ed.js",
+    "runtime-main.js.map": "/gostack-gitrepos/static/js/runtime-main.7eb7e7ed.js.map",
+    "static/js/2.6ef2d2a7.chunk.js": "/gostack-gitrepos/static/js/2.6ef2d2a7.chunk.js",
+    "static/js/2.6ef2d2a7.chunk.js.map": "/gostack-gitrepos/static/js/2.6ef2d2a7.chunk.js.map",
+    "index.html": "/gostack-gitrepos/index.html",
+    "precache-manifest.0c1e1b884391f4e053b5cc8a615403f2.js": "/gostack-gitrepos/precache-manifest.0c1e1b884391f4e053b5cc8a615403f2.js",
+    "service-worker.js": "/gostack-gitrepos/service-worker.js",
+    "static/js/2.6ef2d2a7.chunk.js.LICENSE.txt": "/gostack-gitrepos/static/js/2.6ef2d2a7.chunk.js.LICENSE.txt",
+    "static/media/background.svg": "/gostack-gitrepos/static/media/background.0b819d63.svg",
+    "static/media/logo.svg": "/gostack-gitrepos/static/media/logo.04f6798f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8e619ab0.js",
-    "static/js/2.b05ab2cc.chunk.js",
+    "static/js/runtime-main.7eb7e7ed.js",
+    "static/js/2.6ef2d2a7.chunk.js",
     "static/js/main.448b0751.chunk.js"
   ]
 }
