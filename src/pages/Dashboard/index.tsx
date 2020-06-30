@@ -16,7 +16,11 @@ interface Repository {
 
 const Dashboard: React.FC = () => {
   const [input, setInput] = useState('');
-  const [repositories, setRepositories] = useState<Repository[]>([]);
+  const [repositories, setRepositories] = useState<Repository[]>(() => {
+    const storage = localStorage.getItem('@githubrepos:repositories');
+    if (storage) return JSON.parse(storage);
+    return [];
+  });
   const [inputError, setInputError] = useState('');
 
   const handleAddRepositories = async (
@@ -41,6 +45,12 @@ const Dashboard: React.FC = () => {
     }
   };
 
+  useEffect(() => {
+    localStorage.setItem(
+      '@githubrepos:repositories',
+      JSON.stringify(repositories),
+    );
+  }, [repositories]);
   return (
     <>
       <img src={logoImg} alt="Github Explorer" />
