@@ -5,7 +5,7 @@ import GlobalStyle from './styles/global';
 
 const App: React.FC = () => (
   <>
-    <BrowserRouter>
+    <BrowserRouter basename="gostack-gitrepos">
       <Routes />
     </BrowserRouter>
     <GlobalStyle />
